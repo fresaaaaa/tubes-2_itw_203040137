@@ -1,0 +1,60 @@
+
+
+.slider h3,
+.slider h5 
+.clients h3 {
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+}
+
+.parallax-container {
+    height: 20%;
+}
+
+
+.parallax img {
+    filter: grayscale(1);
+    opacity: 0.5 !important;
+}
+
+.clients img {
+    max-width: 150px;
+    filter: drop-shadow(1px 1px 1px rgba(0,0,0,1));
+}
+
+
+section {
+    padding: 10px 0;
+}
+
+/* Footer */
+
+.footer{
+    background-color: slategrey;
+    padding: 10px;
+}
+.footer_container{
+    row-gap: 2rem;
+
+}
+.footer_title{
+    font-size: 25px;
+    color: white;
+}
+
+.footer_text {
+    color: white;
+}
+
+.footer_link{
+    padding: 25px;
+    color: white;
+}
+.footer_link:hover{
+    color: skyblue;
+}
+.footer_social{
+    font-size: 1.6rem;
+}
+.footer_social:hover{
+    color: slategrey;
+}
